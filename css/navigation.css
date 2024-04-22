@@ -1,0 +1,34 @@
+.menu ul {
+	margin: 0;
+	padding-left: 0;
+	list-style-type: none;
+}
+
+.menu li {
+	border: 1px solid white;
+}
+
+.menu a:hover {
+	color: black;
+	background-color: #333333;
+}
+
+.menu a {
+	color: white;
+	display: block;
+	padding: 5px 20px;
+}
+
+.menu li {
+	display: table-cell;
+}
+
+.menu ul { 
+	border-collapse: collapse;
+}
+
+.highlighted {
+    background-color: gray;
+    color: white;
+}
+
